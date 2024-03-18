@@ -28,6 +28,7 @@
 .flexThree {
     display: flex;
     flex-direction: row-reverse;
+    justify-content: left;
 }
 
 .flexThree > .square {
@@ -35,13 +36,12 @@
 }
 
 .flexFour {
-    
     display: flex;
-    flex-wrap: wrap;
+    width: 350px;
+    flex-flow: wrap;
+    background-color: #3d8b6d;
 }
 .flexFour >.square {
-    background-color: #3d8b6d;
-    width: 350px;
     margin: 5px;
 }
 .flexFive {
